@@ -410,94 +410,111 @@ font-size: 100px;
         margin: 25px 0 10px !important;
     }
 
-    /* CORTE COMÚN */
-    .nose {
-        width: 100% !important;
-        height: auto !important;
-        margin: 0 !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-    }
+   /* SERVICIOS EN CELULAR */
 
-    .comuncito {
-        width: 90% !important;
-        height: 250px !important;
-        object-fit: cover;
-    }
+.comun,
+.niño,
+.barba,
+.corteybarba,
+.corteybarbajubilado,
+.claritosymechas {
+    font-size: 26px !important;
+    text-align: left !important;
+    margin: 25px 10px 10px !important;
+}
 
-    .precio1 {
-        font-size: 30px !important;
-        margin: 10px 0 !important;
-        padding: 0 !important;
-    }
+/* Corte común */
+.nose {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
 
-    /* NIÑO / JUBILADO */
-    .niño-contenedor {
-        width: 100% !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-    }
+.comuncito {
+    width: 90% !important;
+    height: 280px !important;
+    object-fit: cover !important;
+    margin: 0 !important;
+}
 
-    .foto-niño {
-        width: 90% !important;
-        display: flex !important;
-        gap: 10px;
-    }
+.precio1 {
+    font-size: 28px !important;
+    margin: 10px 0 20px !important;
+    padding: 0 !important;
+    text-align: center !important;
+}
 
-    .foto-niño img {
-        width: 50% !important;
-        height: 220px !important;
-        object-fit: cover;
-    }
+/* Niño y jubilado */
+.niño-contenedor {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
 
-    .precio-niño {
-        font-size: 30px !important;
-        margin: 10px 0 !important;
-        padding: 0 !important;
-    }
+.foto-niño {
+    width: 90% !important;
+    display: flex !important;
+    gap: 10px !important;
+}
 
-    /* SERVICIOS */
-    .contenedor-barba,
-    .contenedor-corteybarba,
-    .contenedor-corteybarbajubilado,
-    .contenedor-claritosymechas {
-        width: 100% !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        gap: 10px !important;
-    }
+.foto-niño img {
+    width: 50% !important;
+    height: 220px !important;
+    object-fit: cover !important;
+}
 
-    .foto-barba,
-    .foto-corteybarba,
-    .foto-corteybarbajubilado,
-    .foto-claritosymechas {
-        width: 90% !important;
-        display: block !important;
-        margin: 0 !important;
-    }
+.precio-niño {
+    font-size: 28px !important;
+    margin: 10px 0 20px !important;
+    padding: 0 !important;
+    text-align: center !important;
+}
 
-    .foto-barba img,
-    .foto-corteybarba img,
-    .foto-corteybarbajubilado img,
-    .foto-claritosymechas img {
-        width: 100% !important;
-        height: 250px !important;
-        object-fit: cover;
-        display: block;
-    }
+/* Barba, corte y barba, jubilado y claritos */
+.contenedor-barba,
+.contenedor-corteybarba,
+.contenedor-corteybarbajubilado,
+.contenedor-claritosymechas {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin: 0 !important;
+    gap: 5px !important;
+}
 
-    .precio-barba,
-    .precio-corteybarba,
-    .precio-corteybarbajubilado,
-    .precio-claritosymecha {
-        font-size: 30px !important;
-        margin: 10px 0 !important;
-        padding: 0 !important;
-        text-align: center !important;
-    }
+.foto-barba,
+.foto-corteybarba,
+.foto-corteybarbajubilado,
+.foto-claritosymehcas {
+    width: 90% !important;
+    display: block !important;
+    margin: 0 !important;
+}
+
+.foto-barba img,
+.foto-corteybarba img,
+.foto-corteybarbajubilado img,
+.foto-claritosymehcas img {
+    width: 100% !important;
+    height: 280px !important;
+    object-fit: cover !important;
+    display: block !important;
+}
+
+.precio-barba,
+.precio-corteybarba,
+.precio-corteybarbajubilado,
+.precio-claritosymecha {
+    font-size: 28px !important;
+    margin: 10px 0 25px !important;
+    padding: 0 !important;
+    text-align: center !important;
+}
 
     /* PROMOCIONES */
     .promociones {
