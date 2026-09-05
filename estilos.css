@@ -339,7 +339,51 @@ font-size: 100px;
     text-align: center;
      background-color: #F2F2F2;
 }
+@media (max-width: 600px) {
 
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 50px !important;
+    }
+
+    h2 {
+        font-size: 35px !important;
+    }
+
+    p {
+        font-size: 20px !important;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .contenedor-claritosymechas {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .foto-claritosymechas {
+        width: 50%;
+    }
+
+    .foto-claritosymechas img {
+        width: 100%;
+        height: auto;
+    }
+
+    .precio-claritosymecha {
+        font-size: 30px !important;
+        margin-left: 20px;
+    }
+
+}
 
 
 
