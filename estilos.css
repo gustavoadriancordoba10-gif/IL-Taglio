@@ -341,93 +341,201 @@ font-size: 100px;
 }
 @media (max-width: 600px) {
 
+    body {
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     h1 {
         font-size: 50px !important;
+        margin: 0 !important;
     }
 
     h2 {
-        font-size: 35px !important;
+        font-size: 30px !important;
+        margin: 0 !important;
     }
 
-    p {
-        font-size: 20px !important;
-    }
-
+    /* DESCRIPCIÓN */
     .descripcion {
-        width: 90%;
+        width: 100% !important;
+        box-sizing: border-box;
+        padding: 30px 20px !important;
+        margin: 0 !important;
+        font-size: 18px !important;
+        line-height: 1.4;
+    }
+
+    /* LOCAL */
+    .titulo-local {
+        font-size: 35px !important;
+        margin: 25px 0 !important;
+    }
+
+    .local-contenedor {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 15px !important;
+    }
+
+    .foto-local {
+        width: 90% !important;
+        height: 250px !important;
+        object-fit: cover;
+    }
+
+    .mapa {
+        width: 90% !important;
+        height: 300px !important;
+    }
+
+    /* TEXTOS */
+    .turnos,
+    .precios {
         font-size: 20px !important;
+        padding: 0 15px;
+    }
+
+    .comun,
+    .niño,
+    .barba,
+    .corteybarba,
+    .corteybarbajubilado,
+    .claritosymechas {
+        font-size: 28px !important;
+        text-align: center !important;
+        margin: 25px 0 10px !important;
+    }
+
+    /* CORTE COMÚN */
+    .nose {
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .comuncito {
+        width: 90% !important;
+        height: 250px !important;
+        object-fit: cover;
+    }
+
+    .precio1 {
+        font-size: 30px !important;
+        margin: 10px 0 !important;
+        padding: 0 !important;
+    }
+
+    /* NIÑO / JUBILADO */
+    .niño-contenedor {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .foto-niño {
+        width: 90% !important;
+        display: flex !important;
+        gap: 10px;
+    }
+
+    .foto-niño img {
+        width: 50% !important;
+        height: 220px !important;
+        object-fit: cover;
+    }
+
+    .precio-niño {
+        font-size: 30px !important;
+        margin: 10px 0 !important;
+        padding: 0 !important;
+    }
+
+    /* SERVICIOS */
+    .contenedor-barba,
+    .contenedor-corteybarba,
+    .contenedor-corteybarbajubilado,
+    .contenedor-claritosymechas {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 10px !important;
+    }
+
+    .foto-barba,
+    .foto-corteybarba,
+    .foto-corteybarbajubilado,
+    .foto-claritosymechas {
+        width: 90% !important;
+        display: block !important;
+        margin: 0 !important;
+    }
+
+    .foto-barba img,
+    .foto-corteybarba img,
+    .foto-corteybarbajubilado img,
+    .foto-claritosymechas img {
+        width: 100% !important;
+        height: 250px !important;
+        object-fit: cover;
+        display: block;
+    }
+
+    .precio-barba,
+    .precio-corteybarba,
+    .precio-corteybarbajubilado,
+    .precio-claritosymecha {
+        font-size: 30px !important;
+        margin: 10px 0 !important;
+        padding: 0 !important;
+        text-align: center !important;
+    }
+
+    /* PROMOCIONES */
+    .promociones {
+        width: 100% !important;
+        box-sizing: border-box;
+        margin: 30px 0 !important;
+        padding: 0 15px !important;
+        font-size: 30px !important;
         text-align: center;
-        margin: 20px auto;
+    }
+
+    .promociones h4 {
+        font-size: 35px !important;
+        margin: 0 0 20px !important;
+    }
+
+    .promociones p {
+        font-size: 18px !important;
+        margin: 10px 0 !important;
+    }
+
+    /* WHATSAPP */
+    .agendar {
+        width: 100% !important;
+        box-sizing: border-box;
+        font-size: 20px !important;
+        margin: 25px 0 !important;
+        padding: 15px !important;
+        text-align: center;
+    }
+
+    .numero {
+        font-size: 20px !important;
+        margin-left: 5px;
     }
 
     img {
         max-width: 100%;
-        height: auto;
-    }
-
-    .local-contenedor {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .foto-local {
-        width: 50%;
-        height: auto;
-    }
-
-    .promociones {
-        margin: 20px 0;
-        font-size: 40px;
-    }
-
-    .promociones h4 {
-        font-size: 25px;
-        margin: 0 0 20px 0;
-    }
-
-    .promociones p {
-        font-size: 20px !important;
-        margin: 10px 0;
-    }
-
-    .agendar {
-        font-size: 25px;
-        text-align: center;
-        background-color: #F2F2F2;
-        margin: 30px auto;
-        padding: 10px;
-    }
-
-    .turnos {
-        font-size: 20px !important;
-        text-align: center;
-    }
-
-    .precios {
-        font-size: 20px !important;
-        text-align: center;
-    }
-
-    .contenedor-claritosymechas {
-        width: 100%;
-        display: flex;
-        align-items: center;
-    }
-
-    .foto-claritosymechas {
-        width: 50%;
-    }
-
-    .foto-claritosymechas img {
-        width: 100%;
-        height: auto;
-    }
-
-    .precio-claritosymecha {
-        font-size: 30px !important;
-        margin-left: 20px;
     }
 }
 
