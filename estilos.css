@@ -554,6 +554,73 @@ font-size: 100px;
     img {
         max-width: 100%;
     }
+    /* ARREGLO DEFINITIVO DE FOTOS Y PRECIOS */
+
+.nose,
+.niño-contenedor,
+.contenedor-barba,
+.contenedor-corteybarba,
+.contenedor-corteybarbajubilado,
+.contenedor-claritosymechas {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+}
+
+.comuncito,
+.foto-barba,
+.foto-corteybarba,
+.foto-corteybarbajubilado,
+.foto-claritosymehcas {
+    width: 90% !important;
+    max-width: 90% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.comuncito {
+    height: 280px !important;
+    object-fit: cover !important;
+}
+
+.foto-barba img,
+.foto-corteybarba img,
+.foto-corteybarbajubilado img,
+.foto-claritosymehcas img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 280px !important;
+    object-fit: cover !important;
+}
+
+.foto-niño {
+    width: 90% !important;
+    max-width: 90% !important;
+}
+
+.foto-niño img {
+    width: 50% !important;
+    height: 220px !important;
+    object-fit: cover !important;
+}
+
+.precio1,
+.precio-niño,
+.precio-barba,
+.precio-corteybarba,
+.precio-corteybarbajubilado,
+.precio-claritosymecha {
+    margin: 10px 0 25px !important;
+    padding: 0 !important;
+    font-size: 28px !important;
+    text-align: center !important;
+}
 }
 
 
